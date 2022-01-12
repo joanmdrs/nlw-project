@@ -162,15 +162,14 @@ nav ul li a {
   position: relative;
 }
 
-nav ul li a:hover {
+/* nav ul li a:hover {
   color: var(--base-color);
-}
+} */
 
 nav ul li a::after {
-  content: '';
   width: 0%;
   height: 2px;
-  background: var(--base-color);
+  background: red;
 
   position: absolute;
   left: 0;
